@@ -1,0 +1,265 @@
+INFO - WARN - MPS4_SCC->CFG_ACLK reads 0. Assuming default clock of 32000000
+Processor internal clock: 32000000Hz
+INFO - V2M-MPS4 revision A
+INFO - Application Note AN22b, Revision C
+INFO - MPS4 build 3
+INFO - MPS4 core clock has been set to: 32000000Hz
+INFO - CPU ID: 0x411fd230
+INFO - CPU: Cortex-M85 r1p0
+INFO - Enabling I-cache.
+INFO - Enabling D-cache.
+INFO - Configured TA_SRAM       @0x50006000
+INFO - Configured TA_EXT        @0x50006800
+INFO - Initialising Ethos-U device@0x50004000
+INFO - Using Dedicated_Sram memory mode; fast cache size: 393216
+INFO - Ethos-U device initialised
+INFO - Ethos-U version info:
+INFO -  Arch:       v2.0.0
+INFO -  Driver:     v1.0.0
+INFO -  MACs/cc:    256
+INFO -  Cmd stream: v1
+INFO - HDLCD resolution id: 4
+INFO - Target system design: Arm Corstone-320
+INFO - Device MPS4 HDLCD configured
+INFO - Resolution:    320 x 240
+INFO - Colour format: ARGB8888
+INFO - ARM ML Embedded Evaluation Kit
+INFO - Version 26.03.0 Build date: Jul 14 2026 @ 13:51:03
+INFO - Compiler: GNU-15.3.1
+INFO - Copyright 2021-2026 Arm Limited and/or its affiliates <open-source-office@arm.com>
+INFO - Initialising ExecuTorch runtime
+INFO - Model PTE file loaded. Size: 10397824 bytes.
+INFO - Model buffer loaded, has 1 methods
+INFO - Method found "forward"
+INFO - Setting up method allocator pool. Base: 0x70ba0320, size: 2097152 bytes.
+INFO - Setting up planned buffer 0, size 280016.
+INFO - Total planned memory allocated: 280016 bytes
+INFO - Setting up temporary allocator pool. Base: 0x94000000, size: 33554432 bytes.
+I [ExecuTorch: EthosUBackend.cpp:122 init()] data:0x701b5910
+INFO - Method memory allocated: 750 bytes
+INFO - Method forward loaded.
+INFO - Preparing inputs...
+INFO - Inputs allocated: 224012 bytes.
+INFO - Preparing outputs; count: 2
+INFO - Outputs prepared
+INFO - Number of input tensors:  2
+INFO - Tensor: 224000 bytes; 56000 elements
+INFO -  Shape:  [1, 700, 80]
+INFO -  Type:   fp32
+INFO - Tensor: 4 bytes; 1 elements
+INFO -  Shape:  [1]
+INFO -  Type:   int32
+INFO - Number of output tensors: 2
+INFO - Tensor: 89784 bytes; 22446 elements
+INFO -  Shape:  [1, 174, 129]
+INFO -  Type:   fp32
+INFO - Tensor: 4 bytes; 1 elements
+INFO -  Shape:  [1]
+INFO -  Type:   int32
+INFO - Number of operators: 2
+INFO -  Operator 0: quantized_decomposed::quantize_per_tensor.out
+INFO -  Operator 1: quantized_decomposed::dequantize_per_tensor.out
+INFO - Delegate calls:
+INFO -  Inst 1: EthosUBackend
+INFO - NPU memory mode: Dedicated_Sram
+INFO -  Method memory: Used: 504778; Peak: 504778; Available: 2097152
+INFO -  Temp memory: Used: 0; Peak: 117; Available: 33554432
+INFO - Model initialisation complete
+INFO - Initialising audio interface: Static sample audio files
+INFO - Using sample audio: 251-137823-0000.wav
+INFO - Audio array size: 54960; sampling rate: 16000
+INFO - Plotting audio signal
+INFO - Plotting 300 rows of MEL spec
+INFO - MelRows: 300; MelCols: 80
+INFO - Mel min: -13.815366; max: 6.651482
+INFO - Decoded tokens: 20
+INFO - Profile for Inference:
+INFO - NPU ACTIVE: 56981255 cycles
+INFO - NPU ETHOSU_PMU_SRAM_RD_DATA_BEAT_RECEIVED: 8627455 beats
+INFO - NPU ETHOSU_PMU_SRAM_WR_DATA_BEAT_WRITTEN: 6807086 beats
+INFO - NPU ETHOSU_PMU_EXT_RD_DATA_BEAT_RECEIVED: 4077010 beats
+INFO - NPU ETHOSU_PMU_EXT_WR_DATA_BEAT_WRITTEN: 2082504 beats
+INFO - NPU IDLE: 801 cycles
+INFO - NPU TOTAL: 56982056 cycles
+INFO - Decoded output: ill be glad to try sir he replied
+INFO - Using sample audio: 251-137823-0002.wav
+INFO - Audio array size: 50080; sampling rate: 16000
+INFO - Plotting audio signal
+INFO - Plotting 300 rows of MEL spec
+INFO - MelRows: 300; MelCols: 80
+INFO - Mel min: -13.795126; max: 6.560400
+INFO - Decoded tokens: 24
+INFO - Profile for Inference:
+INFO - NPU ACTIVE: 56979107 cycles
+INFO - NPU ETHOSU_PMU_SRAM_RD_DATA_BEAT_RECEIVED: 8627455 beats
+INFO - NPU ETHOSU_PMU_SRAM_WR_DATA_BEAT_WRITTEN: 6807086 beats
+INFO - NPU ETHOSU_PMU_EXT_RD_DATA_BEAT_RECEIVED: 4077010 beats
+INFO - NPU ETHOSU_PMU_EXT_WR_DATA_BEAT_WRITTEN: 2082504 beats
+INFO - NPU IDLE: 949 cycles
+INFO - NPU TOTAL: 56980056 cycles
+INFO - Decoded output: this is in part of your testing routine is it
+INFO - Using sample audio: 251-137823-0005.wav
+INFO - Audio array size: 87120; sampling rate: 16000
+INFO - Plotting audio signal
+INFO - Plotting 500 rows of MEL spec
+INFO - MelRows: 500; MelCols: 80
+INFO - Mel min: -13.682039; max: 6.369057
+INFO - Decoded tokens: 33
+INFO - Profile for Inference:
+INFO - NPU ACTIVE: 56978959 cycles
+INFO - NPU ETHOSU_PMU_SRAM_RD_DATA_BEAT_RECEIVED: 8627455 beats
+INFO - NPU ETHOSU_PMU_SRAM_WR_DATA_BEAT_WRITTEN: 6807086 beats
+INFO - NPU ETHOSU_PMU_EXT_RD_DATA_BEAT_RECEIVED: 4077010 beats
+INFO - NPU ETHOSU_PMU_EXT_WR_DATA_BEAT_WRITTEN: 2082504 beats
+INFO - NPU IDLE: 97 cycles
+INFO - NPU TOTAL: 56979056 cycles
+INFO - Decoded output: an instant later it crashed over pinning mark favor beneath it
+INFO - Using sample audio: 251-137823-0006.wav
+INFO - Audio array size: 63600; sampling rate: 16000
+INFO - Plotting audio signal
+INFO - Plotting 300 rows of MEL spec
+INFO - MelRows: 300; MelCols: 80
+INFO - Mel min: -13.815511; max: 6.375572
+INFO - Decoded tokens: 30
+INFO - Profile for Inference:
+INFO - NPU ACTIVE: 56979811 cycles
+INFO - NPU ETHOSU_PMU_SRAM_RD_DATA_BEAT_RECEIVED: 8627455 beats
+INFO - NPU ETHOSU_PMU_SRAM_WR_DATA_BEAT_WRITTEN: 6807086 beats
+INFO - NPU ETHOSU_PMU_EXT_RD_DATA_BEAT_RECEIVED: 4077010 beats
+INFO - NPU ETHOSU_PMU_EXT_WR_DATA_BEAT_WRITTEN: 2082504 beats
+INFO - NPU IDLE: 245 cycles
+INFO - NPU TOTAL: 56980056 cycles
+INFO - Decoded output: bu threw up his arms to protect himself but too late
+INFO - Using sample audio: 251-137823-0007.wav
+INFO - Audio array size: 56640; sampling rate: 16000
+INFO - Plotting audio signal
+INFO - Plotting 300 rows of MEL spec
+INFO - MelRows: 300; MelCols: 80
+INFO - Mel min: -13.815510; max: 5.946894
+INFO - Decoded tokens: 25
+INFO - Profile for Inference:
+INFO - NPU ACTIVE: 56979663 cycles
+INFO - NPU ETHOSU_PMU_SRAM_RD_DATA_BEAT_RECEIVED: 8627455 beats
+INFO - NPU ETHOSU_PMU_SRAM_WR_DATA_BEAT_WRITTEN: 6807086 beats
+INFO - NPU ETHOSU_PMU_EXT_RD_DATA_BEAT_RECEIVED: 4077010 beats
+INFO - NPU ETHOSU_PMU_EXT_WR_DATA_BEAT_WRITTEN: 2082504 beats
+INFO - NPU IDLE: 393 cycles
+INFO - NPU TOTAL: 56980056 cycles
+INFO - Decoded output: for minutes no one stirred among the wreckage
+INFO - Using sample audio: 251-137823-0012.wav
+INFO - Audio array size: 39760; sampling rate: 16000
+INFO - Plotting audio signal
+INFO - Plotting 300 rows of MEL spec
+INFO - MelRows: 300; MelCols: 80
+INFO - Mel min: -20.000000; max: 6.349446
+INFO - Decoded tokens: 19
+INFO - Profile for Inference:
+INFO - NPU ACTIVE: 56979515 cycles
+INFO - NPU ETHOSU_PMU_SRAM_RD_DATA_BEAT_RECEIVED: 8627455 beats
+INFO - NPU ETHOSU_PMU_SRAM_WR_DATA_BEAT_WRITTEN: 6807086 beats
+INFO - NPU ETHOSU_PMU_EXT_RD_DATA_BEAT_RECEIVED: 4077010 beats
+INFO - NPU ETHOSU_PMU_EXT_WR_DATA_BEAT_WRITTEN: 2082504 beats
+INFO - NPU IDLE: 541 cycles
+INFO - NPU TOTAL: 56980056 cycles
+INFO - Decoded output: his friendz eyelids flickered
+INFO - Using sample audio: 251-137823-0015.wav
+INFO - Audio array size: 41840; sampling rate: 16000
+INFO - Plotting audio signal
+INFO - Plotting 300 rows of MEL spec
+INFO - MelRows: 300; MelCols: 80
+INFO - Mel min: -20.000000; max: 7.310342
+INFO - Decoded tokens: 29
+INFO - Profile for Inference:
+INFO - NPU ACTIVE: 56979367 cycles
+INFO - NPU ETHOSU_PMU_SRAM_RD_DATA_BEAT_RECEIVED: 8627455 beats
+INFO - NPU ETHOSU_PMU_SRAM_WR_DATA_BEAT_WRITTEN: 6807086 beats
+INFO - NPU ETHOSU_PMU_EXT_RD_DATA_BEAT_RECEIVED: 4077010 beats
+INFO - NPU ETHOSU_PMU_EXT_WR_DATA_BEAT_WRITTEN: 2082504 beats
+INFO - NPU IDLE: 689 cycles
+INFO - NPU TOTAL: 56980056 cycles
+INFO - Decoded output: lets see about getting help for mister faber
+INFO - Using sample audio: 251-137823-0017.wav
+INFO - Audio array size: 61680; sampling rate: 16000
+INFO - Plotting audio signal
+INFO - Plotting 300 rows of MEL spec
+INFO - MelRows: 300; MelCols: 80
+INFO - Mel min: -13.672214; max: 6.240461
+INFO - Decoded tokens: 25
+INFO - Profile for Inference:
+INFO - NPU ACTIVE: 56979219 cycles
+INFO - NPU ETHOSU_PMU_SRAM_RD_DATA_BEAT_RECEIVED: 8627455 beats
+INFO - NPU ETHOSU_PMU_SRAM_WR_DATA_BEAT_WRITTEN: 6807086 beats
+INFO - NPU ETHOSU_PMU_EXT_RD_DATA_BEAT_RECEIVED: 4077010 beats
+INFO - NPU ETHOSU_PMU_EXT_WR_DATA_BEAT_WRITTEN: 2082504 beats
+INFO - NPU IDLE: 837 cycles
+INFO - NPU TOTAL: 56980056 cycles
+INFO - Decoded output: anyhow we want to help got a job for us
+INFO - Using sample audio: 251-137823-0023.wav
+INFO - Audio array size: 37360; sampling rate: 16000
+INFO - Plotting audio signal
+INFO - Plotting 300 rows of MEL spec
+INFO - MelRows: 300; MelCols: 80
+INFO - Mel min: -20.000000; max: 5.480694
+INFO - Decoded tokens: 14
+INFO - Profile for Inference:
+INFO - NPU ACTIVE: 56979071 cycles
+INFO - NPU ETHOSU_PMU_SRAM_RD_DATA_BEAT_RECEIVED: 8627455 beats
+INFO - NPU ETHOSU_PMU_SRAM_WR_DATA_BEAT_WRITTEN: 6807086 beats
+INFO - NPU ETHOSU_PMU_EXT_RD_DATA_BEAT_RECEIVED: 4077010 beats
+INFO - NPU ETHOSU_PMU_EXT_WR_DATA_BEAT_WRITTEN: 2082504 beats
+INFO - NPU IDLE: 985 cycles
+INFO - NPU TOTAL: 56980056 cycles
+INFO - Decoded output: hes a great scientist
+INFO - Using sample audio: 251-137823-0024.wav
+INFO - Audio array size: 39360; sampling rate: 16000
+INFO - Plotting audio signal
+INFO - Plotting 300 rows of MEL spec
+INFO - MelRows: 300; MelCols: 80
+INFO - Mel min: -20.000000; max: 4.952582
+INFO - Decoded tokens: 13
+INFO - Profile for Inference:
+INFO - NPU ACTIVE: 56978923 cycles
+INFO - NPU ETHOSU_PMU_SRAM_RD_DATA_BEAT_RECEIVED: 8627455 beats
+INFO - NPU ETHOSU_PMU_SRAM_WR_DATA_BEAT_WRITTEN: 6807086 beats
+INFO - NPU ETHOSU_PMU_EXT_RD_DATA_BEAT_RECEIVED: 4077010 beats
+INFO - NPU ETHOSU_PMU_EXT_WR_DATA_BEAT_WRITTEN: 2082504 beats
+INFO - NPU IDLE: 133 cycles
+INFO - NPU TOTAL: 56979056 cycles
+INFO - Decoded output: tom nodded unhappily
+INFO - Using sample audio: 251-137823-0025.wav
+INFO - Audio array size: 58560; sampling rate: 16000
+INFO - Plotting audio signal
+INFO - Plotting 300 rows of MEL spec
+INFO - MelRows: 300; MelCols: 80
+INFO - Mel min: -13.811164; max: 7.762706
+INFO - Decoded tokens: 21
+INFO - Profile for Inference:
+INFO - NPU ACTIVE: 56979775 cycles
+INFO - NPU ETHOSU_PMU_SRAM_RD_DATA_BEAT_RECEIVED: 8627455 beats
+INFO - NPU ETHOSU_PMU_SRAM_WR_DATA_BEAT_WRITTEN: 6807086 beats
+INFO - NPU ETHOSU_PMU_EXT_RD_DATA_BEAT_RECEIVED: 4077010 beats
+INFO - NPU ETHOSU_PMU_EXT_WR_DATA_BEAT_WRITTEN: 2082504 beats
+INFO - NPU IDLE: 281 cycles
+INFO - NPU TOTAL: 56980056 cycles
+INFO - Decoded output: male or female human or animal
+INFO - Using sample audio: 251-137823-0026.wav
+INFO - Audio array size: 44560; sampling rate: 16000
+INFO - Plotting audio signal
+INFO - Plotting 300 rows of MEL spec
+INFO - MelRows: 300; MelCols: 80
+INFO - Mel min: -20.000000; max: 5.187151
+INFO - Decoded tokens: 21
+INFO - Profile for Inference:
+INFO - NPU ACTIVE: 56979627 cycles
+INFO - NPU ETHOSU_PMU_SRAM_RD_DATA_BEAT_RECEIVED: 8627455 beats
+INFO - NPU ETHOSU_PMU_SRAM_WR_DATA_BEAT_WRITTEN: 6807086 beats
+INFO - NPU ETHOSU_PMU_EXT_RD_DATA_BEAT_RECEIVED: 4077010 beats
+INFO - NPU ETHOSU_PMU_EXT_WR_DATA_BEAT_WRITTEN: 2082504 beats
+INFO - NPU IDLE: 429 cycles
+INFO - NPU TOTAL: 56980056 cycles
+INFO - Decoded output: mister swiffts eyes twinkled
+INFO - Main loop terminated successfully.
+INFO -  Method memory: Used: 504778; Peak: 504778; Available: 2097152
+INFO -  Temp memory: Used: 0; Peak: 2436064; Available: 33554432
+INFO - program terminating...
+

@@ -1,0 +1,143 @@
+INFO - WARN - MPS4_SCC->CFG_ACLK reads 0. Assuming default clock of 32000000
+Processor internal clock: 32000000Hz
+INFO - V2M-MPS4 revision A
+INFO - Application Note AN22b, Revision C
+INFO - MPS4 build 3
+INFO - MPS4 core clock has been set to: 32000000Hz
+INFO - CPU ID: 0x411fd230
+INFO - CPU: Cortex-M85 r1p0
+INFO - Enabling I-cache.
+INFO - Enabling D-cache.
+INFO - Configured TA_SRAM       @0x50006000
+INFO - Configured TA_EXT        @0x50006800
+INFO - Initialising Ethos-U device@0x50004000
+INFO - Using Dedicated_Sram memory mode; fast cache size: 393216
+INFO - Ethos-U device initialised
+INFO - Ethos-U version info:
+INFO -  Arch:       v2.0.0
+INFO -  Driver:     v1.0.0
+INFO -  MACs/cc:    256
+INFO -  Cmd stream: v1
+INFO - HDLCD resolution id: 4
+INFO - Target system design: Arm Corstone-320
+INFO - Device MPS4 HDLCD configured
+INFO - Resolution:    320 x 240
+INFO - Colour format: ARGB8888
+INFO - ARM ML Embedded Evaluation Kit
+INFO - Version 26.03.0 Build date: Jul  7 2026 @ 16:39:50
+INFO - Compiler: GNU-15.2.1
+INFO - Copyright 2021-2026 Arm Limited and/or its affiliates <open-source-office@arm.com>
+INFO - Initialising ExecuTorch runtime
+INFO - Model PTE file loaded. Size: 10397824 bytes.
+INFO - Model buffer loaded, has 1 methods
+INFO - Method found "forward"
+INFO - Setting up method allocator pool. Base: 0x70a69e20, size: 2097152 bytes.
+INFO - Setting up planned buffer 0, size 280016.
+INFO - Total planned memory allocated: 280016 bytes
+INFO - Setting up temporary allocator pool. Base: 0x94000000, size: 33554432 bytes.
+I [ExecuTorch: EthosUBackend.cpp:122 init()] data:0x7007f410
+INFO - Method memory allocated: 750 bytes
+INFO - Method forward loaded.
+INFO - Preparing inputs...
+INFO - Inputs allocated: 224012 bytes.
+INFO - Preparing outputs; count: 2
+INFO - Outputs prepared
+INFO - Number of input tensors:  2
+INFO - Tensor: 224000 bytes; 56000 elements
+INFO -  Shape:  [1, 700, 80]
+INFO -  Type:   fp32
+INFO - Tensor: 4 bytes; 1 elements
+INFO -  Shape:  [1]
+INFO -  Type:   int32
+INFO - Number of output tensors: 2
+INFO - Tensor: 89784 bytes; 22446 elements
+INFO -  Shape:  [1, 174, 129]
+INFO -  Type:   fp32
+INFO - Tensor: 4 bytes; 1 elements
+INFO -  Shape:  [1]
+INFO -  Type:   int32
+INFO - Number of operators: 2
+INFO -  Operator 0: quantized_decomposed::quantize_per_tensor.out
+INFO -  Operator 1: quantized_decomposed::dequantize_per_tensor.out
+INFO - Delegate calls:
+INFO -  Inst 1: EthosUBackend
+INFO - NPU memory mode: Dedicated_Sram
+INFO -  Method memory: Used: 504778; Peak: 504778; Available: 2097152
+INFO -  Temp memory: Used: 0; Peak: 117; Available: 33554432
+INFO - Model initialisation complete
+INFO - Initialising audio interface: Static sample audio files
+INFO - Using sample audio: another_door.wav
+INFO - Audio array size: 62480; sampling rate: 16000
+INFO - Plotting audio signal
+INFO - Plotting 300 rows of MEL spec
+INFO - MelRows: 300; MelCols: 80
+INFO - Mel min: -13.602469; max: 6.673507
+INFO - Decoded tokens: 31
+INFO - Profile for Inference:
+INFO - NPU ACTIVE: 56981255 cycles
+INFO - NPU ETHOSU_PMU_SRAM_RD_DATA_BEAT_RECEIVED: 8627455 beats
+INFO - NPU ETHOSU_PMU_SRAM_WR_DATA_BEAT_WRITTEN: 6807086 beats
+INFO - NPU ETHOSU_PMU_EXT_RD_DATA_BEAT_RECEIVED: 4077010 beats
+INFO - NPU ETHOSU_PMU_EXT_WR_DATA_BEAT_WRITTEN: 2082504 beats
+INFO - NPU IDLE: 801 cycles
+INFO - NPU TOTAL: 56982056 cycles
+INFO - Decoded output: and nacked immediately ad the a patnent man of a doorn
+INFO - Using sample audio: another_engineer.wav
+INFO - Audio array size: 70400; sampling rate: 16000
+INFO - Plotting audio signal
+INFO - Plotting 400 rows of MEL spec
+INFO - MelRows: 400; MelCols: 80
+INFO - Mel min: -13.809351; max: 5.279685
+INFO - Decoded tokens: 23
+INFO - Profile for Inference:
+INFO - NPU ACTIVE: 56979107 cycles
+INFO - NPU ETHOSU_PMU_SRAM_RD_DATA_BEAT_RECEIVED: 8627455 beats
+INFO - NPU ETHOSU_PMU_SRAM_WR_DATA_BEAT_WRITTEN: 6807086 beats
+INFO - NPU ETHOSU_PMU_EXT_RD_DATA_BEAT_RECEIVED: 4077010 beats
+INFO - NPU ETHOSU_PMU_EXT_WR_DATA_BEAT_WRITTEN: 2082504 beats
+INFO - NPU IDLE: 949 cycles
+INFO - NPU TOTAL: 56980056 cycles
+INFO - Decoded output: the d you much bar the door to he happy o plide
+INFO - Using sample audio: i_tell_you.wav
+INFO - Audio array size: 59600; sampling rate: 16000
+INFO - Plotting audio signal
+INFO - Plotting 300 rows of MEL spec
+INFO - MelRows: 300; MelCols: 80
+INFO - Mel min: -13.771667; max: 5.514630
+INFO - Decoded tokens: 18
+INFO - Profile for Inference:
+INFO - NPU ACTIVE: 56978959 cycles
+INFO - NPU ETHOSU_PMU_SRAM_RD_DATA_BEAT_RECEIVED: 8627455 beats
+INFO - NPU ETHOSU_PMU_SRAM_WR_DATA_BEAT_WRITTEN: 6807086 beats
+INFO - NPU ETHOSU_PMU_EXT_RD_DATA_BEAT_RECEIVED: 4077010 beats
+INFO - NPU ETHOSU_PMU_EXT_WR_DATA_BEAT_WRITTEN: 2082504 beats
+INFO - NPU IDLE: 97 cycles
+INFO - NPU TOTAL: 56979056 cycles
+INFO - Decoded output: eitalia it if not pay me decled
+INFO - Using sample audio: testing_routine.wav
+INFO - Audio array size: 50080; sampling rate: 16000
+INFO - Plotting audio signal
+INFO - Plotting 300 rows of MEL spec
+INFO - MelRows: 300; MelCols: 80
+INFO - Mel min: -13.782191; max: 5.502233
+INFO - Decoded tokens: 14
+INFO - Profile for Inference:
+INFO - NPU ACTIVE: 56979811 cycles
+INFO - NPU ETHOSU_PMU_SRAM_RD_DATA_BEAT_RECEIVED: 8627455 beats
+INFO - NPU ETHOSU_PMU_SRAM_WR_DATA_BEAT_WRITTEN: 6807086 beats
+INFO - NPU ETHOSU_PMU_EXT_RD_DATA_BEAT_RECEIVED: 4077010 beats
+INFO - NPU ETHOSU_PMU_EXT_WR_DATA_BEAT_WRITTEN: 2082504 beats
+INFO - NPU IDLE: 245 cycles
+INFO - NPU TOTAL: 56980056 cycles
+INFO - Decoded output: dont b the atachy caled
+
+Exception caught by function HardFault_Handler
+CTRL    : 0x0000000c
+IPSR    : 0x00000003
+APSR    : 0xa0000000
+xPSR    : 0xa0000003
+PSP     : 0x30008000
+MSP     : 0x300078e0
+PRIMASK : 0x00000000
+BASEPRI : 0x00000000
+FAULTMSK: 0x00000000

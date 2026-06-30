@@ -1,0 +1,123 @@
+INFO - WARN - MPS4_SCC->CFG_ACLK reads 0. Assuming default clock of 32000000
+Processor internal clock: 32000000Hz
+INFO - V2M-MPS4 revision A
+INFO - Application Note AN22b, Revision C
+INFO - MPS4 build 3
+INFO - MPS4 core clock has been set to: 32000000Hz
+INFO - CPU ID: 0x411fd230
+INFO - CPU: Cortex-M85 r1p0
+INFO - Enabling I-cache.
+INFO - Enabling D-cache.
+INFO - Configured TA_SRAM       @0x50006000
+INFO - Configured TA_EXT        @0x50006800
+INFO - Initialising Ethos-U device@0x50004000
+INFO - Using Dedicated_Sram memory mode; fast cache size: 393216
+INFO - Ethos-U device initialised
+INFO - Ethos-U version info:
+INFO -  Arch:       v2.0.0
+INFO -  Driver:     v1.0.0
+INFO -  MACs/cc:    256
+INFO -  Cmd stream: v1
+INFO - HDLCD resolution id: 4
+INFO - Target system design: Arm Corstone-320
+INFO - Device MPS4 HDLCD configured
+INFO - Resolution:    320 x 240
+INFO - Colour format: ARGB8888
+INFO - ARM ML Embedded Evaluation Kit
+INFO - Version 26.03.0 Build date: Jul  9 2026 @ 10:50:28
+INFO - Compiler: GNU-15.3.1
+INFO - Copyright 2021-2026 Arm Limited and/or its affiliates <open-source-office@arm.com>
+INFO - Added ethos-u support to op resolver
+INFO - Creating allocator using tensor arena at 0x0x70e45d60
+INFO - Allocating tensors
+INFO - Model INPUT tensors:
+INFO -  tensor type is int8
+INFO -  tensor occupies 11544 bytes with dimensions
+INFO -          0:   1
+INFO -          1: 296
+INFO -          2:  39
+INFO - Scale = 0.133949
+INFO - ZeroPoint = -1
+INFO - Model OUTPUT tensors:
+INFO -  tensor type is int8
+INFO -  tensor occupies 4292 bytes with dimensions
+INFO -          0:   1
+INFO -          1:   1
+INFO -          2: 148
+INFO -          3:  29
+INFO - Scale = 0.003906
+INFO - ZeroPoint = -128
+INFO - Activation buffer (a.k.a tensor arena) size used: 592468
+INFO - Number of operators: 1
+INFO -  Operator 0: ethos-u
+INFO - NPU memory mode likely to be: Dedicated_Sram
+INFO - Initialising audio interface: Static sample audio files
+INFO - Using sample audio: another_door.wav
+INFO - Inference 1/2
+INFO - Inference 2/2
+INFO - Final results:
+INFO - Total number of inferences: 2
+INFO - For timestamp: 0.000000 (inference #: 0); label: and he walked immediately out of t
+INFO - For timestamp: 1.000000 (inference #: 1); label: he aparchment by another door
+INFO - Complete recognition: and he walked immediately out of the aparchment by another door
+INFO - Profile for Inference:
+INFO - NPU ACTIVE: 15145640 cycles
+INFO - NPU ETHOSU_PMU_SRAM_RD_DATA_BEAT_RECEIVED: 2709668 beats
+INFO - NPU ETHOSU_PMU_SRAM_WR_DATA_BEAT_WRITTEN: 926420 beats
+INFO - NPU ETHOSU_PMU_EXT_RD_DATA_BEAT_RECEIVED: 1694536 beats
+INFO - NPU ETHOSU_PMU_EXT_WR_DATA_BEAT_WRITTEN: 37545 beats
+INFO - NPU IDLE: 428 cycles
+INFO - NPU TOTAL: 15146068 cycles
+INFO - Using sample audio: another_engineer.wav
+INFO - Inference 1/3
+INFO - Inference 2/3
+INFO - Inference 3/3
+INFO - Final results:
+INFO - Total number of inferences: 3
+INFO - For timestamp: 0.000000 (inference #: 0); label: another engineer rushe toward the do
+INFO - For timestamp: 1.000000 (inference #: 1); label: oor to see what was
+INFO - For timestamp: 2.000000 (inference #: 2); label: happening outside
+INFO - Complete recognition: another engineer rushe toward the dooor to see what was happening outside
+INFO - Profile for Inference:
+INFO - NPU ACTIVE: 15144240 cycles
+INFO - NPU ETHOSU_PMU_SRAM_RD_DATA_BEAT_RECEIVED: 2709668 beats
+INFO - NPU ETHOSU_PMU_SRAM_WR_DATA_BEAT_WRITTEN: 926420 beats
+INFO - NPU ETHOSU_PMU_EXT_RD_DATA_BEAT_RECEIVED: 1694536 beats
+INFO - NPU ETHOSU_PMU_EXT_WR_DATA_BEAT_WRITTEN: 37545 beats
+INFO - NPU IDLE: 828 cycles
+INFO - NPU TOTAL: 15145068 cycles
+INFO - Using sample audio: i_tell_you.wav
+INFO - Inference 1/2
+INFO - Inference 2/2
+INFO - Final results:
+INFO - Total number of inferences: 2
+INFO - For timestamp: 0.000000 (inference #: 0); label: i tell you it his not poi
+INFO - For timestamp: 1.000000 (inference #: 1); label: ison she cried
+INFO - Complete recognition: i tell you it his not poiison she cried
+INFO - Profile for Inference:
+INFO - NPU ACTIVE: 15144340 cycles
+INFO - NPU ETHOSU_PMU_SRAM_RD_DATA_BEAT_RECEIVED: 2709668 beats
+INFO - NPU ETHOSU_PMU_SRAM_WR_DATA_BEAT_WRITTEN: 926420 beats
+INFO - NPU ETHOSU_PMU_EXT_RD_DATA_BEAT_RECEIVED: 1694536 beats
+INFO - NPU ETHOSU_PMU_EXT_WR_DATA_BEAT_WRITTEN: 37545 beats
+INFO - NPU IDLE: 228 cycles
+INFO - NPU TOTAL: 15144568 cycles
+INFO - Using sample audio: testing_routine.wav
+INFO - Inference 1/2
+INFO - Inference 2/2
+INFO - Final results:
+INFO - Total number of inferences: 2
+INFO - For timestamp: 0.000000 (inference #: 0); label: this is in part of your tasting routi
+INFO - For timestamp: 1.000000 (inference #: 1); label: n as it
+INFO - Complete recognition: this is in part of your tasting routin as it
+INFO - Profile for Inference:
+INFO - NPU ACTIVE: 15144520 cycles
+INFO - NPU ETHOSU_PMU_SRAM_RD_DATA_BEAT_RECEIVED: 2709668 beats
+INFO - NPU ETHOSU_PMU_SRAM_WR_DATA_BEAT_WRITTEN: 926420 beats
+INFO - NPU ETHOSU_PMU_EXT_RD_DATA_BEAT_RECEIVED: 1694536 beats
+INFO - NPU ETHOSU_PMU_EXT_WR_DATA_BEAT_WRITTEN: 37545 beats
+INFO - NPU IDLE: 548 cycles
+INFO - NPU TOTAL: 15145068 cycles
+INFO - Main loop terminated successfully.
+INFO - program terminating...
+
